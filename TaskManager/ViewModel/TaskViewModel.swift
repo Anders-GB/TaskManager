@@ -9,7 +9,7 @@ import SwiftUI
 
 class TaskViewModel: ObservableObject {
     @Published var storedTasks: [Task] = [
-        Task(title: "English", description: "Room 207", doneFlag: false, date: Date(timeInterval: 60, since: Date.now)),
+        Task(title: "English", description: "Room 207", doneFlag: false, date: Date(timeInterval: 70, since: Date.now)),
         Task(title: "Pre-Calculus 12", description: "Room 305", doneFlag: false, date: Date(timeInterval: 60*5, since: Date.now)),
         Task(title: "Law", description: "Room 217", doneFlag: false, date: Date(timeInterval: 60*10, since: Date.now)),
         Task(title: "lunch", description: "", doneFlag: false, date: Date(timeInterval: 60*15, since: Date.now)),
